@@ -13,6 +13,8 @@ public class ProblemaSiete {
             double Pago = 0;
 
             try {
+
+                System.out.println("-----------------LITROS-------------------");
                 System.out.println("Ingrese la cantidad de Litros:");
                 Litro = Double.parseDouble(bf.readLine());
 

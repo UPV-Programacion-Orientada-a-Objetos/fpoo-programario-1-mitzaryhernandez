@@ -13,6 +13,8 @@ public class ProblemaDieciseis {
         double Total = 0;
 
         try {
+
+            System.out.println("------------------COSTO PINTURA-------------------");
             System.out.println("Ingrese el precio por metro cuadrado en dólares:");
             Precio = Double.parseDouble(bf.readLine());
 

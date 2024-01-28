@@ -13,6 +13,8 @@ public class ProblemaVeinte {
         double CostoT = 0;
 
         try {
+
+            System.out.println("------------------COSTO DE LLAMADA---------------------");
             System.out.println("Ingrese la duración de la llamada: ");
             Duracion = Double.parseDouble(bf.readLine());
 

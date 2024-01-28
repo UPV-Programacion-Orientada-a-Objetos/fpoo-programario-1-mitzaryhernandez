@@ -12,6 +12,8 @@ public class ProblemaCatorce {
         int AñoNaci = 0;
 
         try {
+
+            System.out.println("------------------EDAD--------------------");
             System.out.println("Ingresa el año de nacimiento:");
             AñoNaci = Integer.parseInt(bf.readLine());
 

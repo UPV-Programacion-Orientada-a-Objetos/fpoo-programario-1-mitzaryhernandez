@@ -13,6 +13,8 @@ public class ProblemaDiecisiete {
         double Hipotenusa = 0;
 
         try {
+
+            System.out.println("-----------------HIPOTENUSA------------------");
             System.out.println("Ingresa el valor del CatetoA:");
             CatetoA = Double.parseDouble(bf.readLine());
 

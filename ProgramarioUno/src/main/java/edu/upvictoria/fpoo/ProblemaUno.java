@@ -12,6 +12,8 @@ public class ProblemaUno {
         int num2 = 0;
 
         try {
+
+            System.out.println("------------------SUMA--------------------");
             System.out.println("Ingresa el valor 1:");
             num1 = Integer.parseInt(bf.readLine());
 

@@ -12,6 +12,7 @@ public class ProblemaOnce {
         double TotalPagar = 0;
 
         try {
+            System.out.println("------------------AGUA--------------------");
             System.out.println("Ingrese la cantidad de metros cúbicos de agua:");
             MetrosCubicos = Double.parseDouble(bf.readLine());
 

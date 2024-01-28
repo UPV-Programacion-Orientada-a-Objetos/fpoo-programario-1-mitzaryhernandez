@@ -11,6 +11,8 @@ public class ProblemaCuatro {
         double Pi = 3.1416;
         double Radio = 0;
         try {
+
+            System.out.println("------------------AREA DEL CIRCULO---------------------");
             System.out.println("Ingresa el valor de Radio");
             Radio = Double.parseDouble(bf.readLine());
 
@@ -18,7 +20,7 @@ public class ProblemaCuatro {
             System.out.println();
             return;
         }
-        System.out.println("EL AREA DEL RECTANGULO ES: " + (Pi* Radio*Radio));
+        System.out.println("EL AREA DEL CIRCULO ES: " + (Pi* Radio*Radio));
     }
 }
 

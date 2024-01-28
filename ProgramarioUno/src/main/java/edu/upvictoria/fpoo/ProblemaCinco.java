@@ -16,6 +16,8 @@ public class ProblemaCinco {
         double Area2 = 0;
 
         try {
+
+            System.out.println("------------------AREA DE LA FIGURA-------------------");
             System.out.println("Ingresa la base del triángulo:");
             Base = Double.parseDouble(bf.readLine());
 

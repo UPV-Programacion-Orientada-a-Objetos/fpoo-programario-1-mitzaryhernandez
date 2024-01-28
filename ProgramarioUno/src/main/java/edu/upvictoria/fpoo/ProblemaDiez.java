@@ -12,6 +12,7 @@ public class ProblemaDiez {
         double Pulgadas = 0;
 
         try {
+            System.out.println("------------------CANTIDAD DE TELA--------------------");
             System.out.println("Ingrese la cantidad de metros:");
             Metros = Double.parseDouble(bf.readLine());
 

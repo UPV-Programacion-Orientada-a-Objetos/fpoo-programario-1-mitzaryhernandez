@@ -13,6 +13,8 @@ public class ProblemaTrece {
         double dolares = 0; // Mover la declaración aquí
 
         try {
+
+            System.out.println("-----------------CONVERSION DE PESO A DOLAR-------------------");
             System.out.println("Ingresa la cantidad de pesos mexicanos:");
             Peso = Double.parseDouble(bf.readLine());
 

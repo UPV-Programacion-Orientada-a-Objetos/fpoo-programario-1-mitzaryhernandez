@@ -12,6 +12,8 @@ public class ProblemaDos {
         double Cal3 = 0;
         double Cal4 = 0;
         try {
+
+            System.out.println("------------------CALIFICACION--------------------");
             System.out.println("CALIFICACION 1:");
             Cal1 = Double.parseDouble(bf.readLine());
 

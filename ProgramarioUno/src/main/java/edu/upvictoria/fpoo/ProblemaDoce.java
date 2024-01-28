@@ -11,6 +11,8 @@ public class ProblemaDoce {
         double Base = 0;
         double Altura = 0;
         try {
+
+            System.out.println("------------------AREA DE TRIANGULO--------------------");
             System.out.println("Ingresa el valor de la Base:");
             Base = Double.parseDouble(bf.readLine());
 

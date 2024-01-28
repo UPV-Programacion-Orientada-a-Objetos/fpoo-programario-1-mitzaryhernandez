@@ -13,6 +13,8 @@ public class ProblemaQuince {
         double Total = 0;
 
         try {
+
+            System.out.println("------------------ESTACIONAMIENTO---------------------");
             System.out.println("Ingrese la cantidad de horas: ");
             Horas = Double.parseDouble(bf.readLine());
 

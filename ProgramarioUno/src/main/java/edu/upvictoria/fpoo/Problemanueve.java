@@ -11,6 +11,8 @@ public class Problemanueve {
         double SueldoSemana = 0;
 
         try{
+
+            System.out.println("-------------------SUELDO SEMANAL--------------------");
             System.out.println("Ingresa la cantidad de horas trabajadas:");
             HorasTrabajadas=Double.parseDouble(bf.readLine());
 

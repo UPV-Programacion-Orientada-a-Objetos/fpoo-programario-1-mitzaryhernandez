@@ -13,6 +13,8 @@ public class ProblemaDieciocho {
         double Total = 0;
 
         try {
+
+            System.out.println("------------------COSTO BOLETO--------------------");
             System.out.println("Ingrese la distancia: ");
             Distancia = Double.parseDouble(bf.readLine());
 

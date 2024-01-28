@@ -11,6 +11,8 @@ public class ProblemaTres {
         double Base = 0;
         double Altura = 0;
         try {
+
+            System.out.println("------------------AREA RECTANGULO--------------------");
             System.out.println("Ingresa el valor de la Base:");
             Base = Double.parseDouble(bf.readLine());
 

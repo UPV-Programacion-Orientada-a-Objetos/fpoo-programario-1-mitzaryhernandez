@@ -13,6 +13,8 @@ public class ProblemaDiecinueve{
             double Tiempo = 0;
 
             try {
+
+                System.out.println("-----------------TIEMPO DEL VIAJE--------------------");
                 System.out.println("Ingrese la distancia: ");
                 Distancia = Double.parseDouble(bf.readLine());
 
